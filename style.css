@@ -1,0 +1,315 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* Global */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+.side-bar span {
+    color: #333333;
+}
+
+li {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    margin: 0 10px;
+}
+
+.logo-id {
+    display: flex;
+}
+
+.countryId {
+    color: #000000;
+    font-size: .8rem;
+    font-weight: normal;
+    padding: 0 0 5px 3px;
+}
+
+/* End */
+
+/* Main */
+
+main {
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar {
+    padding: 5px;
+    overflow: scroll;
+}
+
+.videoWrapper {
+    flex: 2;
+    padding: 0 20px;
+    overflow: scroll;
+}
+
+/* End */
+
+/* Images */
+
+.yt-categories img {
+    width: 24px;
+    height: 24px;
+    border-radius: 100%;
+}
+
+/* End */
+
+/* Text  */
+
+.title-text {
+    font-size: 1rem;
+    font-weight: 200;
+    padding: 5px 0;
+}
+
+/* Logo Svg */
+
+.ytd-topbar-logo-renderer {
+    height: 24px;
+    width: 80px;
+}
+
+.ytSvg-icons {
+    width: 24px;
+    height: 24px;
+    fill: #606060;
+}
+
+/* End */
+
+/* Input Search  */
+
+.searchInput {
+    width: 366px;
+    height: 32px;
+    vertical-align: top;
+    border: 1px solid silver;
+    padding-left: 8px;
+}
+
+.searchButton {
+    width: 65px;
+    height: 32px;
+    padding: 1px 6px;
+    border: 1px solid silver;
+}
+
+.searchButton svg {
+    width: 20px;
+    height: 20px;
+    fill: #333333;
+}
+
+.searchBar-svg {
+    display: flex;
+}
+
+/* End */
+
+/* Button  */
+
+.createChannel {
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+
+.ytApps {
+    width: 40px;
+    height: 40px;
+    border: none;
+    fill: #606060;
+}
+
+.ytSettings {
+    width: 40px;
+    height: 40px;
+    border: none;
+    fill: #606060;
+}
+
+/* Section: Sign In */
+
+.signIn-section {
+    padding: 20px;
+}
+
+.title-signIn {
+    width: 161px;
+    margin: 5px 0;
+}
+
+.signIn-button {
+    padding: 5px;
+    color: #065fd4;
+    border: 1px solid;
+    border-color: #065fd4;
+}
+
+
+.signIn-button svg {
+    width: 24px;
+    height: 24px;
+    fill: #065fd4;
+}
+
+.signIn-text {
+    display: inline;
+    color: #065fd4;
+    font-weight: 200;
+    padding: 5px;
+}
+
+/* End */
+
+/* Sidebar: Sections */
+
+.yt-mainButtons {
+    padding: 0 .8rem .8rem .8rem;
+}
+
+.yt-subButtons {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: .8rem;
+}
+
+.yt-categories {
+    padding: .8rem;
+    border-top: 1px solid silver;
+}
+
+.browseChannels {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+    padding: .8rem;
+}
+
+.yt-more {
+    border-bottom: 1px solid silver;
+    padding: .8rem;  
+}
+
+.yt-otherLinks {
+    border-bottom: 1px solid silver;
+    padding: .8rem;
+}
+
+/* End */
+
+/* Section: Footer  */
+
+/* footer nav {
+    display: flex;
+} */
+
+.footer-links a {
+    color: #606060;
+}
+
+.footer-links {
+    font-size: .9rem;
+    font-weight: 700;
+    padding: 0 3px;
+}
+
+/* End */
+
+/* Section: video-container */
+
+
+.video-container {
+    display: grid;
+    grid-template-columns:repeat(4, .5fr);
+    grid-column-gap: .5rem;
+    grid-row-gap: .2em;
+}
+
+.channel {
+    height: 36px;
+    width: 36px;
+    border-radius: 100%;
+}
+
+.videos img {
+    display: block;
+    max-width: 100%;
+    padding: .3rem;
+}
+
+.video-title {
+    color: #030303;
+    font-weight: normal;
+}
+
+.video-channelName {
+    display: block;
+    color: #606060;
+    font-size: .8rem;
+}
+
+.video-detail {
+    color: #606060;
+    font-size: .8rem;
+}
+
+.contentWrapper {
+    display: flex;
+}
+
+.content {
+    padding: 10px;
+}
+
+
+
+
+.title-text {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 8px 0;
+    color: #606060;
+}
+
+
+.svg-label-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.title-svgLabel {
+    text-align: center;
+    padding: 0px 0px 0px 8px;
+    font-size: 1rem;
+}
+
+.img-label-wrapper {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+}
+
+.activities-label {
+    text-align: center;
+    padding: 0px 0px 0px 8px;
+    font-size: 1rem;
+}
